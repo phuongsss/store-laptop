@@ -1,0 +1,17 @@
+.spiner{
+  width: 100px;
+  height: 100px;
+  border:8px solid;
+  border-color: rgb(233, 233, 9) transparent rgb(233, 233, 9) transparent;
+  border-radius: 50%;
+  animation: spinerEffect 1s linear infinite;
+}
+
+@keyframes spinerEffect{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
